@@ -1,8 +1,9 @@
-name = input('请输入你的名字: ')
-print('name=', name)
-
-number = 100
-if number >= 0:
-    print(number)
+age = input("请输入你的年龄: ")
+print("age=", age)
+if age.isnumeric():
+    if int(age) >= 30:
+        print("现代年轻人")
+    else:
+        print("加油，年轻人")
 else:
-    print(-number)
+    print("火星年龄")

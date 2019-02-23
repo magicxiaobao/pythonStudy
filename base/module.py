@@ -1,7 +1,7 @@
 # 模块
-# 引用
-# import util
-#
+# 导入外部模块,外部类
+import sys
+print(sys.version_info)
 # print(add(1, 2))
 
 

@@ -13,6 +13,7 @@ config = {
 print(config)
 print(config["ip"])
 print(config["port"])
+print(config["options"]["timeout"])
 # 增加一个属性
 config["aa"] = "AA"
 print(config)
